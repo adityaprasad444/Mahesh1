@@ -38,6 +38,7 @@ public class SeleniumCommands {
 			
 			 seriesOfActions.perform();
 			 driver.findElement(By.id("pass")).sendKeys("absdedfr");
+			 System.out.println("logged in success");
 			}
 		
 		}
