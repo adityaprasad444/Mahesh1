@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.qa.tests.YoutubeVideoTest">
+      <class name="com.qa.tests.SeleniumCommands">
         <methods>
-          <include name="testYoutubeWithSikuli"/>
+          <include name="testSeleniumCommands"/>
         </methods>
-      </class> <!-- com.qa.tests.YoutubeVideoTest -->
+      </class> <!-- com.qa.tests.SeleniumCommands -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
