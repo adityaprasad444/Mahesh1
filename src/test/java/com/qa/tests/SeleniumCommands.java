@@ -37,6 +37,7 @@ public class SeleniumCommands {
 			 .build();
 			
 			 seriesOfActions.perform();
+			 driver.findElement(By.id("pass")).sendKeys("absdedfr");
 			}
 		
 		}
